@@ -1,0 +1,94 @@
+header {
+    border-bottom: 12px dashed #f5e190;
+    display: flex; 
+  }
+
+  h1 {
+    color: #f6f5ee;
+    margin-bottom: 1px;
+    font-size: 48px;
+    font-family: fantasy;
+    font-weight: bolder;
+  }
+
+  body {
+    background: #8fae88;
+  }
+
+  main {
+    margin: auto;
+    max-width: 80%;
+  }
+  
+  label {
+    color: #f6eef5;
+    font-size: 20px;
+    font-family: Georgia, serif;
+    font-weight: bolder;
+  }
+
+  p {
+    padding-bottom: 0.1in;
+    color: #eef5f6;
+    font-size: 22px;
+    font-family: Georgia, serif;
+    font-weight: bolder;
+    margin-bottom: 20px;
+  }
+  
+  .is-prime {
+    color: #00E676;
+  }
+  
+  .not-prime {
+    color: #FF3D00;
+  }
+  
+  button {
+    color: white;
+    font-size: 14px;
+    font-family: fantasy;
+    background-color: #df941c;
+    display: block flex;
+    cursor: grab;
+    border: dashed green;
+    border-radius: 1px;
+    padding: 0.1px 0.1px;
+    text-align: center;
+  }
+
+  button:hover {
+    color: #eae61c;
+    background-color: rgb(233, 27, 27);
+  }
+  
+  li {
+    font-family: "Gill Sans", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  footer { 
+    padding-top: 0.5in;
+    padding-left: 10in;
+  } 
+
+  .footer {
+    color: #f6eef5;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: Georgia, serif;
+    font-weight: lighter;
+    margin-bottom: 20px;
+  }
+ 
+  .hidden {
+    visibility: hidden;
+  }
+
+  .text-for-errors {
+    color: #95310d;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: lighter;
+  }
